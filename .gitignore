@@ -1,2 +1,4 @@
 venv
 .env
+networksecurity/logging/__pycache__
+networksecurity/__pycache__
