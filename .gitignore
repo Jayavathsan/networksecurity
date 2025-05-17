@@ -2,3 +2,5 @@ venv
 .env
 networksecurity/logging/__pycache__
 networksecurity/__pycache__
+__pycache__
+.github/
