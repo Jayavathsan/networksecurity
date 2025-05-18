@@ -5,3 +5,4 @@ networksecurity/__pycache__
 __pycache__
 .github/
 logs/
+networksecurity\components\__pycache__
