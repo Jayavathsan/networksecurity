@@ -4,7 +4,6 @@ numpy
 pymongo
 certifi
 pymongo
-# pymongo[srv]==3.6
 scikit-learn
 dill
 pyyaml
@@ -12,6 +11,3 @@ mlflow
 dagshub
 fastapi
 uvicorn
-
-
--e .
