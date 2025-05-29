@@ -24,4 +24,4 @@ newgrp docker
 
 - go to github actions and select runners and then create a new selfhosted runner
 
- 
+ this is done fully
