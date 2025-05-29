@@ -10,8 +10,10 @@ dill
 pyyaml
 mlflow
 dagshub
+flask
+gunicorn
 fastapi
 uvicorn
 
 
--e .
+# -e .
