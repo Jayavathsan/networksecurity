@@ -1,0 +1,27 @@
+To be done before Continuous Deployment
+
+Create an ec2 instance in AWS
+Connect to the instance using EC2 instance connect
+
+Open the instance and then run the following commands to 
+setup Docker in EC2 
+
+#optinal
+
+sudo apt-get update -y
+
+sudo apt-get upgrade
+
+#required
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+sudo usermod -aG docker ubuntu
+
+newgrp docker
+
+- go to github actions and select runners and then create a new selfhosted runner
+
+ 
