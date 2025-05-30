@@ -23,6 +23,7 @@ from networksecurity.utils.main_utils.utils import save_object,load_object,load_
 from networksecurity.utils.ml_utils.metric.classification_metric import get_classification_score
 
 
+# if this needs to be initialized for container then add the secrets otherwise it wont work or show any error
 # dagshub.init(repo_owner='jayavathsan', repo_name='networksecurity', mlflow=True)
 
 
