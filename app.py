@@ -8,6 +8,11 @@ from dotenv import load_dotenv
 load_dotenv()
 mongo_db_url = os.getenv("MONGODB_URL_KEY")
 # print(mongo_db_url)
+# ✅ Log whether the variable is set (safe, no actual value shown)
+if mongo_db_url:
+    print("✅ MONGODB_URL_KEY loaded successfully")
+else:
+    print("❌ MONGODB_URL_KEY is missing!")
 import pymongo
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
